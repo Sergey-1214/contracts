@@ -1,6 +1,8 @@
 syntax = "proto3";
 
-package auth;
+package auth.v1;
+
+option go_package = "github.com/Sergey-1214/contracts/auth/v1;authv1";
 
 service AuthService {
     rpc CreateUser(CreateUserRequest) returns (CreateUserResponse);

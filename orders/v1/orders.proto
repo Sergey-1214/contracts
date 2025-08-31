@@ -1,7 +1,8 @@
 syntax = "proto3";
 
-package orders;
+package orders.v1;
 
+option go_package = "github.com/Sergey-1214/contracts/orders/v1;ordersv1";
 service OrdersService {
     rpc CreateOrder(CreateOrderRequest) returns (CreateOrderResponse);
     rpc GetOrder(GetOrderRequest) returns (GetOrderResponse);
