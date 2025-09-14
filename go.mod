@@ -3,6 +3,7 @@ module github.com/Sergey-1214/contracts
 go 1.24.4
 
 require (
+	github.com/googleapis/googleapis v0.0.0-20250911211355-f8776fec04e3 // indirect
 	golang.org/x/net v0.41.0 // indirect
 	golang.org/x/sys v0.33.0 // indirect
 	golang.org/x/text v0.26.0 // indirect
